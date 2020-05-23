@@ -3,7 +3,7 @@
     margin-top: -3vh;
     padding-top: 1.5vh;
     margin-left: -3vw;
-    width: 103vw;
+    width: 101.5vw;
     background-color: #0D0D0D;
     overflow: hidden;
 }
@@ -28,6 +28,53 @@
     border-color: transparent transparent white transparent;
     color: white;
 }
+
+
+.topnav .icon {
+    display: none;
+    border-right: 10vw;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 15px 15px;
+        padding-right: 5vw;
+        font-family: 'Calibri';
+        text-decoration: none;
+        font-size: 17px;
+    }
+  }
+  
+ @media screen and (max-width: 600px) {
+    .topnav.responsive{
+        position: fixed;
+        width: 101.5vw;
+        background-color: #0D0D0D;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .topnav.responsive a.icon {
+        display: block;
+        color: white;
+        text-align: right;
+        font-family: 'Calibri';
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        padding-right: 5vw;
+        text-align: right;
+    }
+  }
+
 
 .black-space{
     overflow: hidden;
@@ -99,3 +146,27 @@ p{
 .contact a:hover {
     color: #a1a1a1;
 }
+
+
+@media screen and (max-width: 600px) {
+    .contact{
+        margin-bottom: -10vh;
+        padding-bottom: 3vh;
+        margin-left: -20%;
+        width: 117.7vw;
+        background-color: #0D0D0D;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact a{
+        float: none;
+        display: block;
+        padding-right: 5vw;
+        text-align: right;
+        font-family: 'Calibri';
+        text-decoration: none;
+        font-size: 17px;
+    }
+  }
