@@ -9,7 +9,7 @@
 }
 
 .topnav a {
-    border-color: transparent transparent transparent transparent;
+    border-color: transparent transparent #0D0D0D transparent;
     float: right;
     display: block;
     color: white;
@@ -21,7 +21,7 @@
 }
   
 .topnav a:hover {
-    border-color: transparent transparent transparent transparent;
+    border-color: transparent transparent #0D0D0D transparent;
     color: #a1a1a1;
 }
   
