@@ -79,7 +79,7 @@
     .topnav.responsive a.active {
         border-style: solid;
         color: white;
-        background-color: black;
+        background-color: #3D3D3D;
         border-color: #0D0D0D;
     } 
 }
