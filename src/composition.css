@@ -9,6 +9,7 @@
 }
 
 .topnav a {
+    border-color: transparent transparent transparent transparent;
     float: right;
     display: block;
     color: white;
@@ -18,8 +19,9 @@
     text-decoration: none;
     font-size: 17px;
 }
-
+  
 .topnav a:hover {
+    border-color: transparent transparent transparent transparent;
     color: #a1a1a1;
 }
   

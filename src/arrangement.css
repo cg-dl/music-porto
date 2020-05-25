@@ -9,6 +9,7 @@
 }
 
 .topnav a {
+    border-color: transparent transparent transparent transparent;
     float: right;
     display: block;
     color: white;
@@ -20,6 +21,7 @@
 }
   
 .topnav a:hover {
+    border-color: transparent transparent transparent transparent;
     color: #a1a1a1;
 }
   
@@ -83,7 +85,7 @@
     background-repeat: no-repeat;
     background-color: black;
     background-image: url("../Assets/piano background.jpg");
-    background-size: auto;
+    background-size: contain;
     background-position: left;
 }
 

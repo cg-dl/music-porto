@@ -9,6 +9,7 @@
 }
 
 .topnav a {
+    border-color: transparent transparent transparent transparent;
     float: right;
     display: block;
     color: white;
@@ -20,6 +21,7 @@
 }
   
 .topnav a:hover {
+    border-color: transparent transparent transparent transparent;
     color: #a1a1a1;
 }
   
@@ -79,7 +81,7 @@
     margin-left: -20%;
     background-repeat: no-repeat;
     background-color: #0D0D0D;
-    background-image: url("../Assets/background new.webp");
+    background-image: url("../Assets/background new.jpg");
     background-size: contain;
     background-position: right;
 }
