@@ -7,8 +7,8 @@
     background-color: #0D0D0D;
     display: inline-flex;
     justify-content: right;
+    text-align: right;
 }
-
 .topnav a {
     border-style: solid;
     border-color: transparent;
