@@ -35,9 +35,12 @@
 }
 
 @media screen and (max-width: 600px) {
+    .topnav{
+        display: block;
+    }
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
-        display: flex;
+        display: block;
         color: white;
         text-align: right;
         padding: 15px 15px;
