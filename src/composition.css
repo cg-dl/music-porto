@@ -5,13 +5,13 @@
     right: 0;
     width: 100%;
     background-color: #0D0D0D;
+    display: inline-flex;
+    justify-content: right;
 }
 
 .topnav a {
     border-style: solid;
     border-color: transparent;
-    float: right;
-    display: block;
     color: white;
     text-align: center;
     padding: 15px 15px;
@@ -56,8 +56,7 @@
         right: 0;
         width: 100%;
         background-color: #0D0D0D;
-        display: flex;
-        flex-direction: column-reverse;
+        display: block;
     }
 
     .topnav.responsive a.icon {
@@ -138,11 +137,11 @@ p{
     overflow: hidden;
     width: 100%;
     background-color: #0D0D0D;
+    display: inline-flex;
+    justify-content: center;
 }
 
 .contact a {
-    float: right;
-    display: block;
     color: white;
     text-align: center;
     padding: 18px 18px;
@@ -155,23 +154,20 @@ p{
     color: #a1a1a1;
 }
 
-
 @media screen and (max-width: 600px) {
     .contact{
         overflow: hidden;
         width: 100%;
         background-color: #0D0D0D;
-        display: flex;
-        flex-direction: column-reverse;
+        display: inline-flex;
+        justify-content: center;
     }
 
     .contact a{
-        float: none;
-        display: block;
         padding-right: 5vw;
         text-align: right;
         font-family: 'Calibri';
         text-decoration: none;
-        font-size: 17px;
+        font-size: 4vw;
     }
   }
