@@ -97,9 +97,9 @@ body{
     width: 100%;
     background-repeat: no-repeat;
     background-color: black;
-    background-image: url("../Assets/piano background.jpg");
-    background-size: contain;
-    background-position: left;
+    background-image: url("../Assets/background.webp");
+    background-size: cover;
+    background-position: center;
 }
 
 .white-space{
@@ -137,41 +137,8 @@ p{
     text-align: justify;
 }
 
-.contact{
-    overflow: hidden;
-    width: 100%;
-    background-color: #0D0D0D;
-    display: inline-flex;
-    justify-content: center;
-}
-
-.contact a {
-    color: white;
-    text-align: center;
-    padding: 18px 18px;
-    font-family: 'Calibri';
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.contact a:hover {
-    color: #a1a1a1;
-}
-
-@media screen and (max-width: 600px) {
-    .contact{
-        overflow: hidden;
-        width: 100%;
-        background-color: #0D0D0D;
-        display: inline-flex;
-        justify-content: center;
+@media screen and (max-width: 700px) {
+    table, thead, tbody, th, td, tr{
+        display: block;
     }
-
-    .contact a{
-        padding-right: 5vw;
-        text-align: right;
-        font-family: 'Calibri';
-        text-decoration: none;
-        font-size: 4vw;
-    }
-  }
+}
