@@ -137,6 +137,22 @@ p{
     text-align: justify;
 }
 
+.download a{
+    background-color: #0D0D0D;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.download a:hover{
+    color: #a1a1a1;
+}
+
 @media screen and (max-width: 700px) {
     table, thead, tbody, th, td, tr{
         display: block;
