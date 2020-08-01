@@ -122,6 +122,15 @@ h2{
     text-align: left;
 }
 
+h2::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -75px; 
+    height: 75px; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+
 a{
     font-family: 'Calibri';
     color: #0D0D0D;
