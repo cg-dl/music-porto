@@ -97,6 +97,7 @@ body{
     background-image: url("../Assets/background.webp");
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 
@@ -104,6 +105,6 @@ h1{
     padding-bottom: 20%;
     font-family: 'Calibri';
     color: white;
-    font-size: 7vw;
+    font-size: 14vh;
     text-align: center;
 }
