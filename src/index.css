@@ -93,7 +93,8 @@ body{
 }
 
 .black-space{
-    padding-top: 20%;
+    margin-top: 57px;
+    padding-top: 15%;
     width: 100%;
     background-repeat: no-repeat;
     background-color: black;
