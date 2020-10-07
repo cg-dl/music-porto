@@ -4,12 +4,11 @@
     left: 0;
     right: 0;
     width: 100%;
-    background-color: #0D0D0D;
+    background-color: black;
     display: inline-flex;
     justify-content: right;
     align-items: right;
 }
-
 .topnav a {
     border-style: solid;
     border-color: transparent;
@@ -59,7 +58,7 @@
         left: 0;
         right: 0;
         width: 100%;
-        background-color: #0D0D0D;
+        background-color: black;
         display: block;
     }
 
@@ -83,8 +82,8 @@
         border-style: solid;
         color: white;
         background-color: #3D3D3D;
-        border-color: #0D0D0D;
-    }    
+        border-color: black;
+    } 
 }
 
 body{
