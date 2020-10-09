@@ -54,7 +54,8 @@ p{
 
 button{
     background-color: #0D0D0D;
-    border: none;
+    border: solid;
+    border-color: white;
     color: white;
     text-align: center;
     text-decoration: none;
