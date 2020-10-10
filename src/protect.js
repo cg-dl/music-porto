@@ -1,5 +1,5 @@
 function reveal(){ 
-    ga('send', 'event', 'contact', 'show', 'email');
+    ga('send', 'event', 'buttons', 'click', 'email');
     var provider = "gmail";
     var occupation = "composer";
     var text = document.createElement("a");
